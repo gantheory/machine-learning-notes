@@ -4,15 +4,19 @@ notes related to machine learning techniques
 
 # Basic
 
+## Approximate Nearest Neighbors
+
+given feature vectors, find its top k neighbors approximately
+
 ## Cosine Similarity
 
 (maybe) the fastest way to calculate cosine similarity in python
 
 Note: implementation in pure Python can be very slow
 
-## Approximate Nearest Neighbors
+## Norm
 
-given feature vectors, find its top k neighbors approximately
+the fastest way to calculate norm of vectors, e.g. 2-norm
 
 # Natural Language Processing
 
