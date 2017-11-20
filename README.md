@@ -4,17 +4,17 @@ notes related to machine learning techniques
 
 # Basic
 
-## Approximate Nearest Neighbors
+## Approximate Nearest Neighbors [[link](https://github.com/spotify/annoy)]
 
 given feature vectors, find its top k neighbors approximately
 
-## Cosine Similarity
+## Cosine Similarity [[link](https://github.com/gantheory/machine-learning-notes/blob/master/basic/cosine_similarity/main.py)]
 
 (maybe) the fastest way to calculate cosine similarity in python
 
 Note: implementation in pure Python can be very slow
 
-## Norm
+## Norm [[link](https://github.com/gantheory/machine-learning-notes/blob/master/basic/norm/main.py)]
 
 the fastest way to calculate norm of vectors, e.g. 2-norm
 
@@ -22,11 +22,15 @@ the fastest way to calculate norm of vectors, e.g. 2-norm
 
 ## Word Embedding
 
-### fastText
+### fastText [[link](https://github.com/gantheory/machine-learning-notes/tree/master/natural_language_processing/fastText)]
 
 the fastest way to learn word embedding based on a given data set
 
-## References
+# Neural Network
 
-* [annoy](https://github.com/spotify/annoy)
-* [fastText](https://github.com/facebookresearch/fastText)
+## RNN Cells
+
+- [RNN](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/rnn)
+- [LSTM](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/lstm)
+- [GRU](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/gru)
+
