@@ -29,3 +29,7 @@ $ ./fasttext print-word-vectors model.bin < queries.txt > output.txt
 `queries.txt`: queries (put one word in one line)
 
 `output.txt`: vectors correspond to `queries.txt` line-by-line
+
+## References
+
+* [fastText](https://github.com/facebookresearch/fastText)
