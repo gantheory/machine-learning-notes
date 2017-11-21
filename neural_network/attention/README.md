@@ -29,7 +29,7 @@ In global attention, we want to compute a variable-length alignment vector  $$\a
 such that
 <!---
 \begin{align*}
-c_t = \sum_i \alpha_{t(i)} h_{s_i}
+c_t = \sum_i \alpha_{t}(i) h_{s_i}
 \end{align*}
 -->
 <p align="center">
