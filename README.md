@@ -34,3 +34,4 @@ the fastest way to learn word embedding based on a given data set
 - [LSTM](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/lstm)
 - [GRU](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/gru)
 
+## Attention [[link](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/attention)]
