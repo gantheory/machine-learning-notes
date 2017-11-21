@@ -32,6 +32,9 @@ W, W^i, W^f, W' \in R^{n \times 3n} \text{: trainable variables} \\
 <img width="90%" src="img/lstm_2.png">
 <br>
 </p>
+
+## Peephole
+
 <p align="center">
 <img width="80%" src="img/lstm_3.png">
 <br>
