@@ -19,7 +19,7 @@ However, global and local attention differ in how the context vector $$c_t$$ is 
 In global attention, we want to compute a variable-length alignment vector  $$\alpha_t$$, whose length equals the number of time steps on the source side (encoder), based on the encoder hidden states $$h_{s_i}$$.
 <!---
 \begin{align*}
-\alpha_t(i) &= \text{align}(h_t, h_{s_i}) \\
+\alpha_{ti} &= \text{align}(h_t, h_{s_i}) \\
 &= \frac{\text{exp}(\text{score}(h_t, h_{s_i}))))}{\sum_{s'} \text{exp}(\text{score}(h_t, h_{s'})))}
 \end{align*}
 -->
@@ -29,7 +29,7 @@ In global attention, we want to compute a variable-length alignment vector  $$\a
 such that
 <!---
 \begin{align*}
-c_t = \sum_i \alpha_{t}(i) h_{s_i}
+c_t = \sum_i \alpha_{ti} h_{s_i}
 \end{align*}
 -->
 <p align="center">
@@ -74,7 +74,7 @@ where  S is the source sentence length and $$p_t \in [0, S]$$ as a result of sig
 Besides, we can further favor alignment point near $$p_t$$ by a Gaussian distribution centered around $$p_t$$.
 <!---
 $$
-\alpha_t(i) = \text{align}(h_t, h_{s_i}) \text{exp}(- \frac{(i - p_t)^2}{2 \sigma^2})
+\alpha_{ti} = \text{align}(h_t, h_{s_i}) \text{exp}(- \frac{(i - p_t)^2}{2 \sigma^2})
 $$
 -->
 <p align="center">
