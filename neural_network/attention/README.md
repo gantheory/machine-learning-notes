@@ -2,7 +2,7 @@
 
 The main idea of attention mechanism is to know what the decoder state should be at time t in a sequence-to-sequence model. Besides, attention-based model are classified into two categories, global and local.
 
-Common to these two types of attention, both of them take the hidden state $$h_t$$ from the top of a stacking RNN cells (LSTM, GRU, ...) layer, and want to derive a context vector $$c_t$$ such that
+Common to these two types of attention is that both of them take the hidden state $$h_t$$ from the top of a stacking RNN cells (LSTM, GRU, ...) layer, and want to derive a context vector $$c_t$$ such that
 <!---
 \begin{align*}
 \widetilde{h_t} &= \tanh(W^c [h_t^T, c_t^T]^T) \\
