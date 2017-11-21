@@ -1,7 +1,3 @@
-# machine-learning-notes
-
-notes related to machine learning techniques
-
 # Basic
 
 ## Approximate Nearest Neighbors [[link](https://github.com/spotify/annoy)]
