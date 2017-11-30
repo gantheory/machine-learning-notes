@@ -23,7 +23,7 @@ Consider a part of a sentence `a b c d e`, we can generate training examples
 
 - context vector: one-hot vector multiplied by an embedding matrix
 - input: the context vector of `c`
-- output: the corresponding context vector (`a`, `b`, `d`, or `e`)
+- output: the corresponding one-hot vector (`a`, `b`, `d`, or `e`)
 
 ## Hierarchical Softmax
 
@@ -38,7 +38,7 @@ Hierarchical softmax performs better for **infrequent** words.
 
 ## Negative Sampling
 
-sampled softmax loss on part of negative labels to reduce training time
+Sampled softmax loss on part of negative labels to reduce training time
 (probability of a word to be selected will be decided by its frequency)
 
 Negative sampling performs better for **frequent** words.
