@@ -16,6 +16,8 @@ the fastest way to calculate norm of vectors, e.g. 2-norm
 
 # Word Embedding
 
+## Word2vec [[link](https://github.com/gantheory/machine-learning-notes/tree/master/word_embedding/word2vec)]
+
 ## fastText [[link](https://github.com/gantheory/machine-learning-notes/tree/master/word_embedding/fastText)]
 
 the fastest way to learn word embedding based on a given data set
