@@ -45,6 +45,6 @@ Negative sampling performs better for **frequent** words.
 
 ## References
 
-* [Mikolov et al. 2013](https://arxiv.org/abs/1301.3781)
+* [word2vec](https://arxiv.org/abs/1301.3781)
 * [skip-gram by Google](https://github.com/tensorflow/models/blob/master/tutorials/embedding/word2vec.py)
 * [Hierarchical Softmax](http://www.cs.toronto.edu/~fritz/absps/andriytree.pdf)
