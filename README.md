@@ -16,7 +16,7 @@ the fastest way to calculate norm of vectors, e.g. 2-norm
 
 # Word Embedding
 
-## Word2vec [[link](https://github.com/gantheory/machine-learning-notes/tree/master/word_embedding/word2vec)]
+## Word2vec [[link](https://goo.gl/1CyWVQ)]
 
 ## fastText [[link](https://github.com/gantheory/machine-learning-notes/tree/master/word_embedding/fastText)]
 
@@ -24,10 +24,6 @@ the fastest way to learn word embedding based on a given data set
 
 # Neural Network
 
-## RNN Cells
+## RNN Cells [[link](https://goo.gl/aJuuqD)]
 
-- [RNN](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/rnn)
-- [LSTM](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/lstm)
-- [GRU](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/rnn_cells/gru)
-
-## Attention [[link](https://github.com/gantheory/machine-learning-notes/tree/master/neural_network/attention)]
+## Attention [[link](https://goo.gl/6h1f3j)]
